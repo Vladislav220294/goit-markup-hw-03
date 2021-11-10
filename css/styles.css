@@ -158,6 +158,8 @@ ul {
   background-color: var(--accent-color);
 }
 .features-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -165,8 +167,15 @@ ul {
 
   color: var(--secondary-text-color);
 }
+.features-list {
+  display: flex;
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
 
-.section-title {
+.responsibilities-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -174,10 +183,17 @@ ul {
 
   color: var(--secondary-text-color);
 }
+.responsibilities-list {
+  display: flex;
+}
+.responsibilities-item:not(:last-child) {
+  margin-right: 30px;
+}
 .section-team {
   font-size: 16px;
   line-height: 1.19;
 }
+
 .team-members {
   font-weight: 500;
 
