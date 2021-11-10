@@ -90,6 +90,7 @@ ul {
   display: flex;
   justify-content: start;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .header-list {
   display: flex;
@@ -267,6 +268,9 @@ ul {
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
+}
+.projects-item {
+  border-bottom: 1px solid #eeeeee;
 }
 .projects-item:not(:nth-child(3n)) {
   margin-right: 30px;
