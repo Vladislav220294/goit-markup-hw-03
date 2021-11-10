@@ -32,59 +32,68 @@
 <main>
         <section class="section">
             <div class="container">
-            <h1>Список проектов</h1>
-            <ul class="list">
-                <li><button class="button" type="button">Все</button></li>
-                <li><button class="button" type="button">Веб-сайты</button></li>
-                <li><button class="button" type="button">Приложения</button></li>
-                <li><button class="button" type="button">Дизайн</button></li>
-                <li><button class="button" type="button">Маркетинг</button></li>
+            <h1 hidden>Список проектов</h1>
+            <ul class="btn-list list">
+                <li class="btn-item"><button class="button" type="button">Все</button></li>
+                <li class="btn-item"><button class="button" type="button">Веб-сайты</button></li>
+                <li class="btn-item"><button class="button" type="button">Приложения</button></li>
+                <li class="btn-item"><button class="button" type="button">Дизайн</button></li>
+                <li class="btn-item"><button class="button" type="button">Маркетинг</button></li>
             </ul>
-            <ul class="list">
-                <li>
+            <ul class="projects-list list">
+                <li class="projects-item">
                     <img src="./image/img.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Технокряк</h2>
-                    <p class="projects-examples">Веб-сайт</p>
+                    <p class="projects-examples">Веб-сайт</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img1.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Постер <span lang="en"> New Orlean vs Golden Star</span></h2>
-                    <p class="projects-examples">Дизайн</p>
+                    <p class="projects-examples">Дизайн</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img2.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Ресторан <span lang="en"> Seafood</span></h2>
-                    <p class="projects-examples">Приложение</p>
+                    <p class="projects-examples">Приложение</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img3.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Проект <span lang="en"> Prime</span></h2>
-                    <p class="projects-examples">Маркетинг</p>
+                    <p class="projects-examples">Маркетинг</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img4.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Проект <span lang="en"> Boxes</span></h2>
-                    <p class="projects-examples">Приложение</p>
+                    <p class="projects-examples">Приложение</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img5.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles"> <span lang="en"> Inspiration has no Borders</span></h2>
-                    <p class="projects-examples">Веб-сайт</p>
+                    <p class="projects-examples">Веб-сайт</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img6.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Издание <span lang="en"> Limited Edition</span></h2>
-                    <p class="projects-examples">Дизайн</p>
+                    <p class="projects-examples">Дизайн</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img7.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles">Проект <span lang="en"> LAB</span></h2>
-                    <p class="projects-examples">Маркетинг</p>
+                    <p class="projects-examples">Маркетинг</p></div>
                 </li>
-                <li>
+                <li class="projects-item">
                     <img src="./image/img8.jpg" alt="" width="370" height="294">
+                    <div class="projects-block">
                     <h2 class="projects-titles"> <span lang="en"> Growing Business</span></h2>
-                    <p class="projects-examples">Приложение</p>
+                    <p class="projects-examples">Приложение</p></div>
                 </li>
             </ul>
             </div>
@@ -92,15 +101,17 @@
 </main>
 <!-- Подвал -->
 <footer class="footer">
-    <div class="container">
-        <a class="logo" href="./">Web<span class="logo-studio-white">Studio</span></a>
+    <div class="footer-container container">
+        <a class="logo footer-logo" href="./">Web<span class="logo-studio-white">Studio</span></a>
         <address>
             <ul class="list">
-                <li>
+                <li class="address-item">
                     <p class="address-street">г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
-                <li><a class="link address-contacts" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="link address-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li class="address-item"><a class="link address-contacts"
+                        href="mailto:info@example.com">info@example.com</a></li>
+                <li class="address-item"><a class="link address-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
             </ul>
         </address>
     </div>
